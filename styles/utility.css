@@ -1,0 +1,20 @@
+.text-sm {
+  font: var(--text-sm);
+}
+
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+  font: var(--subtitle);
+}
+
+.red-span {
+  color: var(--red);
+}
+
+.tag {
+  background-color: var(--gray-300);
+  border-radius: 999px;
+}
