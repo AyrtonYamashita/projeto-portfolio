@@ -21,26 +21,49 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <section>
-        <header>
-          <img src="./assets/images/Avatar.png" alt="" />
-          <p class="subtitle">Hello World! Meu nome é <span class="red-span">Martina Santos</span> e sou</p>
+    <main class="grid container">
+      <span id="bg-intro">
+        <section id="intro" class="grid grid-align">
+          <img src="./assets/images/Avatar.png" alt="" id="perfil-img" />
+          <p class="subtitle">
+            Hello World! Meu nome é
+            <span class="red-span">Martina Santos</span> e sou
+          </p>
           <h1 class="title-lg">Desenvolvedora Fullstack</h1>
           <p class="text-sm">
             Transformo necessidades em aplicações reais, evolventes e
-            funcionais. Desenvolvo sistemas através da <br> minha paixão pela
-            tecnologia, contribuindo com soluções inovadoras e eficazes para
-            desafios complexos.
+            funcionais. Desenvolvo sistemas através da <br />
+            minha paixão pela tecnologia, contribuindo com soluções inovadoras e
+            eficazes para desafios complexos.
           </p>
-        </header>
-        <div id="tags">
-          <div class="tag">
-            <img src="./assets/icons/GitHub.svg" alt="">
-            <p>GitHub</p>
+          <div id="links" class="grid grid-flow-col gap-16">
+            <div id="git" class="tag">
+              <img src="./assets/icons/GitHub.svg" alt="" />
+              <p class="text-md">Github</p>
+            </div>
+            <div id="html" class="tag">
+              <img src="./assets/icons/HTML.svg" alt="" />
+              <p class="text-md">HTML</p>
+            </div>
+            <div id="css" class="tag">
+              <img src="./assets/icons/GitHub.svg" alt="" />
+              <p class="text-md">CSS</p>
+            </div>
+            <div id="js" class="tag">
+              <img src="./assets/icons/JavaScript.svg" alt="" />
+              <p class="text-md">Javascript</p>
+            </div>
+            <div id="react" class="tag">
+              <img src="./assets/icons/React.svg" alt="" />
+              <p class="text-md">React</p>
+            </div>
+            <div id="node" class="tag">
+              <img src="./assets/icons/Node.js.svg" alt="" />
+              <p class="text-md">Node,js</p>
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+      </span>
+    </main>
   </body>
 </html>

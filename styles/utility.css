@@ -6,6 +6,10 @@
   font: var(--title-lg);
 }
 
+.text-md{
+  font: var(--text-md);
+}
+
 .subtitle {
   font: var(--subtitle);
 }
@@ -16,5 +20,27 @@
 
 .tag {
   background-color: var(--gray-300);
+  width: 8rem;
+  height: 40px;
   border-radius: 999px;
 }
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-align {
+  text-align: center;
+  justify-items: center;
+}
+
+.gap-16{
+  gap: 16px;
+}
+
+
+
