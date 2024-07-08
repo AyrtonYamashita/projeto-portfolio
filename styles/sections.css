@@ -14,10 +14,11 @@
   }
 
   #links {
-    border: 1px solid red;
+    margin-top: 80px;
   }
 
   #links img {
+    background-color: gree;
     vertical-align: middle;
     margin-right: 8px;
     width: 24px;
@@ -27,4 +28,9 @@
     align-items: center;
     justify-content: center;
   }
+
+  #arrow-down{
+    margin-block: 94px 57px;
+  }
+
 }

@@ -12,16 +12,26 @@
 
 .subtitle {
   font: var(--subtitle);
+  margin-top: 56px;
 }
 
 .red-span {
   color: var(--red);
 }
 
+.gray-400{
+  color: var(--gray-400);
+}
+
+.gray-500{
+  color: var(--gray-500);
+}
+
 .tag {
   background-color: var(--gray-300);
-  width: 8rem;
-  height: 40px;
+  /* width: 8rem;
+  height: 40px; */
+  padding: 8px 16px;
   border-radius: 999px;
 }
 
@@ -34,8 +44,8 @@
 }
 
 .grid-align {
-  text-align: center;
-  justify-items: center;
+    text-align: center;
+    justify-items: center;
 }
 
 .gap-16{
